@@ -1,0 +1,25 @@
+{
+  "name": "imooc-koa-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didashine/imooc-koa-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/didashine/imooc-koa-course/issues"
+  },
+  "homepage": "https://github.com/didashine/imooc-koa-course#readme",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-static": "^4.0.2",
+    "puppeteer": "^1.1.1"
+  }
+}
