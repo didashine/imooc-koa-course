@@ -18,8 +18,13 @@
   },
   "homepage": "https://github.com/didashine/imooc-koa-course#readme",
   "dependencies": {
+    "bcrypt": "^1.0.3",
+    "glob": "^7.1.2",
     "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
     "koa-static": "^4.0.2",
-    "puppeteer": "^1.1.1"
+    "mongoose": "^5.0.7",
+    "puppeteer": "^1.1.1",
+    "request-promise-native": "^1.0.5"
   }
 }

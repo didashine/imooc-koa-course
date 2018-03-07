@@ -5,8 +5,8 @@ const url = `https://movie.douban.com/tag/#/?sort=R&range=0,10&tags=`
 const sleep = time => new Promise(resolve => {
   setTimeout(resolve, time);
 })
-console.log(111);
-(async () => {
+
+;(async () => {
   console.log('start visit the target page')
   const browser = await puppeteer.launch({
     args: ['--no-sandbox'],  // 非沙箱模式
@@ -48,5 +48,6 @@ console.log(111);
 
   browser.close()
 
-  console.log(result)
+  process.send({result})
+  process.exit(0)
 })()
